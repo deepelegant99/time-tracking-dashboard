@@ -46,6 +46,59 @@ body .container .profile {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
   grid-row: 1 /3;
+  border-radius: .5em;
+}
+
+body .container .profile .top_container {
+  width: 100%;
+  height: 70%;
+  background-color: #6f76c8;
+  border-radius: .5em;
+}
+
+body .container .profile .top_container .inner_top_container {
+  height: 80%;
+  width: 80%;
+  background-color: #6f76c8;
+  /*margin-top: 10px;
+          margin-left: 10px;*/
+  padding: 20px;
+}
+
+body .container .profile .top_container img {
+  height: 70px;
+  width: 70px;
+  display: block;
+}
+
+body .container .profile .top_container p {
+  color: #bdc1ff;
+  padding-top: 10px;
+}
+
+body .container .profile .top_container h1 {
+  font-size: 50px;
+}
+
+body .container .profile .bottom_container {
+  width: 100%;
+  height: auto;
+  border-radius: .5em;
+}
+
+body .container .profile .bottom_container .daily {
+  width: 80%;
+  padding: 20px;
+}
+
+body .container .profile .bottom_container .daily p {
+  color: #bdc1ff;
+  font-size: 15px;
+  padding: 7px;
+}
+
+body .container .profile .bottom_container .daily p:hover {
+  color: white;
 }
 
 body .container .work {
