@@ -49,59 +49,33 @@ body {
     }
     .profile {
       grid-row: 1 /3;
-      border-radius: .5em;
 
-      .top_container{
+      .card {
+        background-color: yellow;
         width: 100%;
-        height: 70%;
-        background-color: $desaturated-blue;
-        border-radius: .5em; 
+        height: 60%;
 
-        .inner_top_container{
-          height: 80%;
-          width: 80%;
-          background-color: $desaturated-blue;
-          /*margin-top: 10px;
-          margin-left: 10px;*/
-          padding: 20px;
-        }
-        
-        img{
-          height: 70px;
-          width: 70px;
-          display: block;
-        }
-
-        p{
-          color:$pale-blue;
-          padding-top: 10px;
-        }
-        h1{
-          font-size: 50px;
+        .info {
+          display: flex;
+          flex-direction: column;
+          background-color: yellowgreen;
+          img {
+            width: 100px;
+            height: 100px;
+          }
+          .content {
+            background-color: yellowgreen;
+            width: 120px;
+            height: auto;
+            margin-top: 1.7em;
+          }
         }
       }
 
-      .bottom_container{
-        width: 100%;
-        height:auto;
-        border-radius: .5em;
-        .daily{
-          width: 80%;
-          padding:20px;
-          p{
-            color:$pale-blue;
-            font-size: 15px;
-            padding: 7px;
-          }
-          p:hover{
-            color: white;
-          }
-
-        }
-        
+      .recurrent {
+        display: flex;
+        flex-direction: column;
       }
-
-      
     }
     .work {
       grid-row: 1 / 2;
@@ -151,6 +125,34 @@ body {
       .profile {
         grid-row: 1 / 2;
         grid-column: 1 / -1;
+
+        .card {
+          background-color: yellow;
+          width: 100%;
+          height: 60%;
+
+          .info {
+            display: flex;
+            flex-direction: row;
+
+            img {
+              width: 100px;
+              height: 100px;
+            }
+            .content {
+              background-color: yellowgreen;
+              width: 120px;
+              height: auto;
+              margin-left: 1.5em;
+              margin-top: 0;
+            }
+          }
+        }
+
+        .recurrent {
+          display: flex;
+          flex-direction: row;
+        }
       }
       .work {
         grid-row: 2 / 3;
