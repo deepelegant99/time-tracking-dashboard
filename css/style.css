@@ -33,8 +33,8 @@ body .container {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: (1fr)[2];
-  -ms-grid-columns: (1fr)[4];
-      grid-template: repeat(2, 1fr)/repeat(4, 1fr);
+  -ms-grid-columns: (minmax(150px, 1fr))[4];
+      grid-template: repeat(2, 1fr)/repeat(4, minmax(150px, 1fr));
   gap: 0.4em;
 }
 
@@ -49,9 +49,10 @@ body .container .profile {
 }
 
 body .container .profile .card {
-  background-color: yellow;
+  background-color: #6f76c8;
   width: 100%;
   height: 60%;
+  border-radius: .7em;
 }
 
 body .container .profile .card .info {
@@ -62,7 +63,8 @@ body .container .profile .card .info {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: yellowgreen;
+  background-color: #6f76c8;
+  border-radius: .7em;
 }
 
 body .container .profile .card .info img {
@@ -71,7 +73,7 @@ body .container .profile .card .info img {
 }
 
 body .container .profile .card .info .content {
-  background-color: yellowgreen;
+  /*background-color: $desaturated-blue;*/
   width: 120px;
   height: auto;
   margin-top: 1.7em;
@@ -85,6 +87,13 @@ body .container .profile .recurrent {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+body .container .profile .recurrent p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: .5em;
 }
 
 body .container .work {
@@ -159,6 +168,7 @@ body .container .self-care {
   }
   body .container div {
     background-color: #ff009d;
+    border-radius: .5em;
   }
   body .container .profile {
     -ms-grid-row: 1;
@@ -167,11 +177,14 @@ body .container .self-care {
     grid-column: 1 / -1;
   }
   body .container .profile .card {
-    background-color: yellow;
+    background-color: #6f76c8;
     width: 100%;
     height: 60%;
+    border-radius: .5em;
+    margin-top: 2em;
   }
   body .container .profile .card .info {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -179,17 +192,19 @@ body .container .self-care {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    border-radius: .5em;
   }
   body .container .profile .card .info img {
     width: 100px;
     height: 100px;
   }
   body .container .profile .card .info .content {
-    background-color: yellowgreen;
-    width: 120px;
+    font-size: 15px;
+    width: 250px;
     height: auto;
-    margin-left: 1.5em;
+    margin-left: .4em;
     margin-top: 0;
+    background-color: #6f76c8;
   }
   body .container .profile .recurrent {
     display: -webkit-box;
@@ -199,6 +214,17 @@ body .container .self-care {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+  body .container .profile .recurrent p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: .7em;
+    color: #bdc1ff;
+    font-weight: 100px;
+  }
+  body .container .profile .recurrent p:hover {
+    color: white;
   }
   body .container .work {
     -ms-grid-row: 2;
