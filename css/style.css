@@ -25,7 +25,8 @@ body {
 
 body .container {
   background-color: #0f1424;
-  width: 75%;
+  max-width: 75%;
+  min-width: 650px;
   height: 60%;
   margin: auto;
   color: white;
@@ -155,11 +156,11 @@ body .container .self-care {
     font-family: Rubik;
     font-weight: 300;
     width: 100vw;
-    height: 100wh;
+    height: 100vh;
   }
   body .container {
     width: 90%;
-    height: 80%;
+    height: 90%;
     display: -ms-grid;
     display: grid;
     -ms-grid-rows: 1.2fr (1fr)[6];
@@ -169,6 +170,8 @@ body .container .self-care {
   body .container div {
     background-color: #ff009d;
     border-radius: .5em;
+    width: 84%;
+    height: auto;
   }
   body .container .profile {
     -ms-grid-row: 1;
@@ -195,14 +198,14 @@ body .container .self-care {
     border-radius: .5em;
   }
   body .container .profile .card .info img {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
   }
   body .container .profile .card .info .content {
     font-size: 15px;
     width: 250px;
-    height: auto;
-    margin-left: .4em;
+    height: 100px;
+    margin-left: .2em;
     margin-top: 0;
     background-color: #6f76c8;
   }
@@ -219,7 +222,7 @@ body .container .self-care {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: .7em;
+    padding: .5em;
     color: #bdc1ff;
     font-weight: 100px;
   }

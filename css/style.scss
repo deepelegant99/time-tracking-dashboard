@@ -32,7 +32,8 @@ body {
 
   .container {
     background-color: $very-dark-blue;
-    width: 75%;
+    max-width: 75%;
+    min-width: 650px;
     height: 60%;
     margin: auto;
     color: white;
@@ -116,11 +117,11 @@ body {
     font-family: Rubik;
     font-weight: 300;
     width: 100vw;
-    height: 100wh;
+    height: 100vh;
 
     .container {
       width: 90%;
-      height: 80%;
+      height: 90%;
 
       //css Grid
       display: grid;
@@ -129,6 +130,8 @@ body {
       div {
         background-color: rgb(255, 0, 157);
         border-radius: .5em;
+        width: 84%;
+        height: auto;
       }
       .profile {
         grid-row: 1 / 2;
@@ -148,14 +151,14 @@ body {
             border-radius: .5em;
 
             img {
-              width: 100px;
-              height: 100px;
+              width: 50px;
+              height: 50px;
             }
             .content {
               font-size: 15px;
               width: 250px;
-              height: auto;
-              margin-left: .4em;
+              height: 100px;
+              margin-left: .2em;
               margin-top: 0;
               background-color: $desaturated-blue;
             }
@@ -165,9 +168,10 @@ body {
         .recurrent {
           display: flex;
           flex-direction: row;
+        
           p{
             display: flex;
-            padding: .7em;
+            padding: .5em;
             color: $pale-blue;
             font-weight: 100px;
           }
