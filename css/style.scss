@@ -51,17 +51,24 @@ body {
       background-color: $dark-blue;
       .card {
         width: 100%;
+        height: 70%;
         background-color: $desaturated-blue;
         border-radius: .4em;
         .info {
-         
           display: flex;
           flex-direction: column;
+          margin-left: 1em;
+         
           img {
-            width: 100px;
+            width: 80px;
             height: auto;
+            margin-top: 1em;
           }
           .content {
+            margin-top: 1em;
+            h2{
+              width: 50%;
+            }
           }
         }
       }
@@ -69,6 +76,9 @@ body {
       .recurrent {
         display: flex;
         flex-direction: column;
+        margin-left: 1em;
+        height: 30% ;
+        justify-content: space-evenly;
       }
     }
     .work {
@@ -130,14 +140,26 @@ body {
         border-radius: .4em;
         .card {
           background-color: $desaturated-blue;
+          width: 100%;
+          height: 70%;
+      
           .info {
             display: flex;
             flex-direction: row;
+            margin:auto;
+            padding: 1em;
             img {
+              margin-top: 0;
               width: 100px;
               height: auto;
+              width: 50px;
             }
             .content {
+              margin-left: .5em;
+              margin-top: 0;
+              h2{
+                width: auto;
+              }
             }
           }
         }
@@ -145,6 +167,11 @@ body {
         .recurrent {
           display: flex;
           flex-direction: row;
+          height: 30%;
+          justify-content: space-evenly;
+          align-items: center;
+          margin-left: 0;
+
         }
       }
       .work {
