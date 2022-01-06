@@ -50,6 +50,7 @@ body .container .profile {
 
 body .container .profile .card {
   width: 100%;
+  height: 70%;
   background-color: #6f76c8;
   border-radius: .4em;
 }
@@ -62,11 +63,21 @@ body .container .profile .card .info {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-left: 1em;
 }
 
 body .container .profile .card .info img {
-  width: 100px;
+  width: 80px;
   height: auto;
+  margin-top: 1em;
+}
+
+body .container .profile .card .info .content {
+  margin-top: 1em;
+}
+
+body .container .profile .card .info .content h2 {
+  width: 50%;
 }
 
 body .container .profile .recurrent {
@@ -77,6 +88,11 @@ body .container .profile .recurrent {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-left: 1em;
+  height: 30%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 body .container .work {
@@ -172,6 +188,8 @@ body .container .self-care {
   }
   body .container .profile .card {
     background-color: #6f76c8;
+    width: 100%;
+    height: 70%;
   }
   body .container .profile .card .info {
     display: -webkit-box;
@@ -181,10 +199,21 @@ body .container .self-care {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    margin: auto;
+    padding: 1em;
   }
   body .container .profile .card .info img {
+    margin-top: 0;
     width: 100px;
     height: auto;
+    width: 50px;
+  }
+  body .container .profile .card .info .content {
+    margin-left: .5em;
+    margin-top: 0;
+  }
+  body .container .profile .card .info .content h2 {
+    width: auto;
   }
   body .container .profile .recurrent {
     display: -webkit-box;
@@ -194,6 +223,14 @@ body .container .self-care {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    height: 30%;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 0;
   }
   body .container .work {
     -ms-grid-row: 2;
