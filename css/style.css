@@ -167,7 +167,7 @@ body .container .work .info .bottom h1 {
 body .container .work .info .bottom p {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 body .container .play {
@@ -177,6 +177,71 @@ body .container .play {
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
   grid-column: 3 / 4;
+  background-color: #56c2e6;
+  position: relative;
+  border-radius: 1.2em;
+}
+
+body .container .play img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70px;
+}
+
+body .container .play .info {
+  background-color: #1c1f4a;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 82%;
+  border-radius: 1em;
+}
+
+body .container .play .info .top {
+  margin-top: 1em;
+}
+
+body .container .play .info .top h4 {
+  margin-left: 1em;
+}
+
+body .container .play .info .top img {
+  margin-top: 1.2em;
+  height: 0.3em;
+  width: auto;
+  margin-right: 1em;
+}
+
+body .container .play .info .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2em;
+  margin-left: 1em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 50%;
+}
+
+body .container .play .info .bottom h1 {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  font-weight: 400;
+}
+
+body .container .play .info .bottom p {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  font-size: 0.9em;
 }
 
 body .container .study {
@@ -359,13 +424,70 @@ body .container .self-care {
   body .container .work .info .bottom p {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
-    font-size: .9em;
+    font-size: 0.9em;
   }
   body .container .play {
     -ms-grid-row: 3;
     -ms-grid-row-span: 1;
     grid-row: 3 / 4;
     grid-column: 1 / -1;
+    background-color: #56c2e6;
+    position: relative;
+    border-radius: 1.2em;
+  }
+  body .container .play img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+  }
+  body .container .play .info {
+    background-color: #1c1f4a;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 74%;
+    border-radius: 1em;
+  }
+  body .container .play .info .top {
+    margin-top: 0.5em;
+  }
+  body .container .play .info .top h4 {
+    margin-left: 1em;
+  }
+  body .container .play .info .top img {
+    margin-top: 0.8em;
+    margin-right: 1em;
+    height: 0.3em;
+    width: auto;
+  }
+  body .container .play .info .bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0em;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 50%;
+  }
+  body .container .play .info .bottom h1 {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    font-weight: 400;
+    font-size: 1.5em;
+  }
+  body .container .play .info .bottom p {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    font-size: 0.9em;
   }
   body .container .study {
     -ms-grid-row: 4;
