@@ -124,6 +124,21 @@ body .container .work .info {
   border-radius: 1em;
 }
 
+body .container .work .info .top {
+  margin-top: 1em;
+}
+
+body .container .work .info .top h4 {
+  margin-left: 1em;
+}
+
+body .container .work .info .top img {
+  margin-top: 1.2em;
+  height: 0.3em;
+  width: auto;
+  margin-right: 1em;
+}
+
 body .container .play {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
@@ -274,6 +289,18 @@ body .container .self-care {
     width: 100%;
     height: 74%;
     border-radius: 1em;
+  }
+  body .container .work .info .top {
+    margin-top: 0.5em;
+  }
+  body .container .work .info .top h4 {
+    margin-left: 1em;
+  }
+  body .container .work .info .top img {
+    margin-top: 0.8em;
+    margin-right: 1em;
+    height: 0.3em;
+    width: auto;
   }
   body .container .play {
     -ms-grid-row: 3;
