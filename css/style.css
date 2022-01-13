@@ -106,6 +106,10 @@ body .container .profile .recurrent p {
   color: #bdc1ff;
 }
 
+body .container .profile .recurrent p:hover {
+  color: white;
+}
+
 body .container .work {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
