@@ -71,10 +71,16 @@ body .container .profile .card .info img {
   width: 80px;
   height: auto;
   margin-top: 1em;
+  border: solid 3px white;
+  border-radius: 100px;
 }
 
 body .container .profile .card .info .content {
   margin-top: 1em;
+}
+
+body .container .profile .card .info .content p {
+  color: #bdc1ff;
 }
 
 body .container .profile .card .info .content h2 {
@@ -94,6 +100,10 @@ body .container .profile .recurrent {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+body .container .profile .recurrent p {
+  color: #bdc1ff;
 }
 
 body .container .work {
@@ -168,6 +178,7 @@ body .container .work .info .bottom p {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   font-size: 0.9em;
+  color: #bdc1ff;
 }
 
 body .container .play {
@@ -242,6 +253,7 @@ body .container .play .info .bottom p {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   font-size: 0.9em;
+  color: #bdc1ff;
 }
 
 body .container .study {
@@ -316,6 +328,7 @@ body .container .study .info .bottom p {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   font-size: 0.9em;
+  color: #bdc1ff;
 }
 
 body .container .exercise {
@@ -390,6 +403,7 @@ body .container .exercise .info .bottom p {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   font-size: 0.9em;
+  color: #bdc1ff;
 }
 
 body .container .social {
@@ -464,6 +478,7 @@ body .container .social .info .bottom p {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   font-size: 0.9em;
+  color: #bdc1ff;
 }
 
 body .container .self-care {
@@ -538,6 +553,7 @@ body .container .self-care .info .bottom p {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   font-size: 0.9em;
+  color: #bdc1ff;
 }
 
 @media (max-width: 375px) {

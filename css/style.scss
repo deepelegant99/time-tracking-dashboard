@@ -63,9 +63,15 @@ body {
             width: 80px;
             height: auto;
             margin-top: 1em;
+
+            border: solid 3px white;
+            border-radius: 100px;
           }
           .content {
             margin-top: 1em;
+            p{
+              color: $pale-blue;
+            }
             h2 {
               width: 50%;
             }
@@ -79,6 +85,9 @@ body {
         margin-left: 1em;
         height: 30%;
         justify-content: space-evenly;
+        p{
+          color: $pale-blue;
+        }
       }
     }
     .work {
@@ -131,6 +140,7 @@ body {
           p {
             flex-basis: 50%;
             font-size: 0.9em;
+            color: $pale-blue;
           }
         }
       }
@@ -184,6 +194,7 @@ body {
           p {
             flex-basis: 50%;
             font-size: 0.9em;
+            color: $pale-blue;
           }
         }
       }
@@ -237,6 +248,7 @@ body {
           p {
             flex-basis: 50%;
             font-size: 0.9em;
+            color: $pale-blue;
           }
         }
         }
@@ -291,6 +303,7 @@ body {
           p {
             flex-basis: 50%;
             font-size: 0.9em;
+            color: $pale-blue;
           }
         }
       }
@@ -345,6 +358,7 @@ body {
           p {
             flex-basis: 50%;
             font-size: 0.9em;
+            color: $pale-blue;
           }
         }
       }
@@ -399,6 +413,7 @@ body {
           p {
             flex-basis: 50%;
             font-size: 0.9em;
+            color: $pale-blue;
           }
         }
       }
