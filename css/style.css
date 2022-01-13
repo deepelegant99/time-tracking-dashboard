@@ -251,6 +251,71 @@ body .container .study {
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
   grid-column: 4 / 5;
+  background-color: #ff5c7c;
+  position: relative;
+  border-radius: 1.2em;
+}
+
+body .container .study img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+}
+
+body .container .study .info {
+  background-color: #1c1f4a;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80%;
+  border-radius: 1em;
+}
+
+body .container .study .info .top {
+  margin-top: 0.5em;
+}
+
+body .container .study .info .top h4 {
+  margin-left: 1em;
+}
+
+body .container .study .info .top img {
+  margin-top: 0.8em;
+  margin-right: 1em;
+  height: 0.3em;
+  width: auto;
+}
+
+body .container .study .info .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0em;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50%;
+}
+
+body .container .study .info .bottom h1 {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+body .container .study .info .bottom p {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  font-size: 0.9em;
 }
 
 body .container .exercise {
@@ -494,6 +559,67 @@ body .container .self-care {
     -ms-grid-row-span: 1;
     grid-row: 4 / 5;
     grid-column: 1 / -1;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3 / 4;
+    grid-column: 1 / -1;
+    background-color: #ff5c7c;
+    position: relative;
+    border-radius: 1.2em;
+  }
+  body .container .study img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+  }
+  body .container .study .info {
+    background-color: #1c1f4a;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 74%;
+    border-radius: 1em;
+  }
+  body .container .study .info .top {
+    margin-top: 0.5em;
+  }
+  body .container .study .info .top h4 {
+    margin-left: 1em;
+  }
+  body .container .study .info .top img {
+    margin-top: 0.8em;
+    margin-right: 1em;
+    height: 0.3em;
+    width: auto;
+  }
+  body .container .study .info .bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0em;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 50%;
+  }
+  body .container .study .info .bottom h1 {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    font-weight: 400;
+    font-size: 1.5em;
+  }
+  body .container .study .info .bottom p {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    font-size: 0.9em;
   }
   body .container .exercise {
     -ms-grid-row: 5;
