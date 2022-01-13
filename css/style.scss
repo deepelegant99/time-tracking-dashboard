@@ -147,6 +147,10 @@ body {
           }
         }
       }
+      .info:hover{
+            background-color: $blue;
+            cursor: pointer;
+      }
     }
     .play {
       grid-row: 1 / 2;
@@ -200,6 +204,10 @@ body {
             color: $pale-blue;
           }
         }
+      }
+          .info:hover{
+            background-color: $blue;
+            cursor: pointer;
       }
     }
     .study {
@@ -255,6 +263,10 @@ body {
           }
         }
         }
+          .info:hover{
+            background-color: $blue;
+            cursor: pointer;
+      }
     }
     .exercise {
       grid-row: 2 / 3;
@@ -309,6 +321,10 @@ body {
             color: $pale-blue;
           }
         }
+      }
+          .info:hover{
+            background-color: $blue;
+            cursor: pointer;
       }
     }
     .social {
@@ -365,6 +381,10 @@ body {
           }
         }
       }
+      .info:hover{
+        background-color: $blue;
+        cursor: pointer;
+      }
     }
     .self-care {
       grid-row: 2 / 3;
@@ -420,6 +440,10 @@ body {
           }
         }
       }
+    }
+        .info:hover{
+          background-color: $blue;
+          cursor: pointer;
     }
   }
 }

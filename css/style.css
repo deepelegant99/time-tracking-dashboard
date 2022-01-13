@@ -185,6 +185,11 @@ body .container .work .info .bottom p {
   color: #bdc1ff;
 }
 
+body .container .work .info:hover {
+  background-color: #5847eb;
+  cursor: pointer;
+}
+
 body .container .play {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
@@ -258,6 +263,11 @@ body .container .play .info .bottom p {
       flex-basis: 50%;
   font-size: 0.9em;
   color: #bdc1ff;
+}
+
+body .container .play .info:hover {
+  background-color: #5847eb;
+  cursor: pointer;
 }
 
 body .container .study {
@@ -335,6 +345,11 @@ body .container .study .info .bottom p {
   color: #bdc1ff;
 }
 
+body .container .study .info:hover {
+  background-color: #5847eb;
+  cursor: pointer;
+}
+
 body .container .exercise {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
@@ -408,6 +423,11 @@ body .container .exercise .info .bottom p {
       flex-basis: 50%;
   font-size: 0.9em;
   color: #bdc1ff;
+}
+
+body .container .exercise .info:hover {
+  background-color: #5847eb;
+  cursor: pointer;
 }
 
 body .container .social {
@@ -485,6 +505,11 @@ body .container .social .info .bottom p {
   color: #bdc1ff;
 }
 
+body .container .social .info:hover {
+  background-color: #5847eb;
+  cursor: pointer;
+}
+
 body .container .self-care {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
@@ -558,6 +583,11 @@ body .container .self-care .info .bottom p {
       flex-basis: 50%;
   font-size: 0.9em;
   color: #bdc1ff;
+}
+
+body .container .info:hover {
+  background-color: #5847eb;
+  cursor: pointer;
 }
 
 @media (max-width: 375px) {
