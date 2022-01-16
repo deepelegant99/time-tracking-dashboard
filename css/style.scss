@@ -78,6 +78,9 @@ body {
           }
         }
       }
+      .card:hover{
+        background-color: $blue;
+      }
 
       .recurrent {
         display: flex;

@@ -87,6 +87,10 @@ body .container .profile .card .info .content h2 {
   width: 50%;
 }
 
+body .container .profile .card:hover {
+  background-color: #5847eb;
+}
+
 body .container .profile .recurrent {
   display: -webkit-box;
   display: -ms-flexbox;
